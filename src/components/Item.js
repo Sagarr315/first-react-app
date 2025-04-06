@@ -1,10 +1,10 @@
 
 import './Item.css';
 
-function Item (){
+function Item (props){
 
-
-    return (<p className="pa">Data Handling in the react </p>);
+    const itemName='nirma';
+    return (<p className="pa">{itemName} </p>);
 }
 
 export default Item;
