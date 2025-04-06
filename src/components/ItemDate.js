@@ -1,16 +1,16 @@
 import './ItemDate.css';
 
-function ItemDate (){
+function ItemDate (props){
 
-const day = 20;
-const month = 'may';
-const yeaar = 156;
+const day =props.day;
+const month = props.month;
+const year =props.year;
 
     return(
         <div className='colour-design-back'>
+            <p>{day}</p>
             <p>{month}</p>
-            <p>jan</p>
-            <p>1978</p>
+            <p>{year}</p>
         </div>
     )
 }
