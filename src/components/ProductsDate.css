@@ -1,8 +1,13 @@
 .product_data{
-    background-color:black
+    background-color:black;
+    text-align: center ;
+    padding:20px;
+    
 }
 
 .product_month{
     font-size:20px;
     color: antiquewhite;
+
+    margin: 5px;
 }
