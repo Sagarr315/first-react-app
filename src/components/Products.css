@@ -1,7 +1,10 @@
-.style{
-    background-color:red;
-    content:center;
-
-    padding:10px;
-    margin:10px;
-}
+.style {
+    background-color: #ffe600; /* Yellow background */
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
