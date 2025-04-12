@@ -1,7 +1,19 @@
-.product-item_description{
-    margin-right:0px;
-    color: pink;
-    content: center;
-   
-   
-}
+.fstyle {
+    background-color: #00e0d0; /* Cyan background */
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-item_description h2 {
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    font-size: 24px;
+    margin: 0;
+  }
+  
