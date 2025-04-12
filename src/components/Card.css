@@ -1,7 +1,15 @@
 .style{
-    background-color:red;
-    content:center;
+    
 
-    padding:70px;
-    margin:10px;
-}
+        background-color: cyan; /* Inner cyan box */
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+       
+            box-shadow: none;
+            border: none;
+          
+           
+      
+      }
